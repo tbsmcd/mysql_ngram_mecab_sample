@@ -39,3 +39,12 @@ ORDER BY score DESC;
 ```
 
 <img width="1038" alt="screen shot" src="https://user-images.githubusercontent.com/174922/163511962-84f186c2-b76c-4362-bf71-bd5f07060680.png">
+
+
+```sql
+SELECT *, MATCH(name_kana, name) AGAINST('太陽の子 さちが丘保育園' IN NATURAL LANGUAGE MODE) as score
+FROM nursery_ngram
+ORDER BY score DESC;
+```
+
+<img width="1021" alt="screen shot" src="https://user-images.githubusercontent.com/174922/163525169-ea4737b6-eadd-405d-a5db-b37b97f9e752.png">
