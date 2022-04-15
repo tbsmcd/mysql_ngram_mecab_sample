@@ -19,7 +19,7 @@ FROM nursery_mecab
 ORDER BY score DESC;
 ```
 
-<img width="919" alt="スクリーンショット 2022-04-14 16 19 37" src="https://user-images.githubusercontent.com/174922/163334451-dafc25b2-d222-4f89-b46a-d422f34dca31.png">
+<img width="919" alt="screen shot" src="https://user-images.githubusercontent.com/174922/163512248-ee92374d-3038-4119-86b9-b23320ed5202.png">
 
 
 ```sql
@@ -28,7 +28,8 @@ FROM nursery_ngram
 ORDER BY score DESC;
 ```
 
-<img width="1159" alt="スクリーンショット 2022-04-14 16 20 18" src="https://user-images.githubusercontent.com/174922/163334469-4afde020-e6f3-43f8-9c63-b1300f747be4.png">
+<img width="1159" alt="screen shot" src="https://user-images.githubusercontent.com/174922/163512282-ff069c06-aa29-4d36-b176-eb9e035077a0.png">
+
 
 
 ```sql
@@ -37,4 +38,4 @@ FROM nursery_mecab
 ORDER BY score DESC;
 ```
 
-<img width="1038" alt="スクリーンショット 2022-04-15 12 07 37" src="https://user-images.githubusercontent.com/174922/163511962-84f186c2-b76c-4362-bf71-bd5f07060680.png">
+<img width="1038" alt="screen shot" src="https://user-images.githubusercontent.com/174922/163511962-84f186c2-b76c-4362-bf71-bd5f07060680.png">
